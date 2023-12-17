@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
+import 'package:tdd_tutorial/core/common/views/loading_view.dart';
 import 'package:tdd_tutorial/src/authentication/presentation/cubit/auth_cubit.dart';
 import 'package:tdd_tutorial/src/authentication/presentation/widgets/add_user_dialog.dart';
-import 'package:tdd_tutorial/core/commom/views/loading_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
